@@ -1,0 +1,53 @@
+//Selectors
+#identificador{
+	color: red;
+}
+.lista{
+	background: #01B4FC;
+	border: 3px double black;
+	color: #111111;
+}
+[data-important]{
+	text-decoration: underline;
+}
+[data-vegetal]{
+	color: green
+}
+[data-vegetal="liquido"]{
+	color: blue;
+	border: 1px solid red;
+}
+[data-carne]{
+	color: red;
+}
+[data-vegetal ~="picante"]{
+	color: red;
+}
+
+a{
+	color: white;
+	background: #333;
+	padding:  10px;
+	margin:  2%;
+	border: 1px solid red;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active{
+	background: gray;
+	font-family: fantasy;
+	color: blue;
+}
+
+ul li{
+	text-decoration: underline;
+}
+ul li > a{
+	color: pink;
+	text-decoration: none !important;
+}
+li+p{
+	color: red;
+}

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Indie+Flower');
+*,
+html,
+body{
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Fredoka One', cursive;
+}
+div{
+	border: 3px solid black;
+	color: #111;
+	height: 200px;
+}
+
+.caja1{
+	background: yellow;
+	display: block;
+	width: 30%;
+	float: left;
+}
+
+.caja2{
+	background: blue;
+	display: block;
+	width: 30%;
+	float: left;
+}
+
+.caja3{
+	background: red;
+	width: 30%;
+	display: block;
+	float: left;
+}
